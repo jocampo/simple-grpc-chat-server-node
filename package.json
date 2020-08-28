@@ -1,0 +1,24 @@
+{
+  "name": "@jocampo/simple-grpc-chat-server-node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocampo/simple-grpc-chat-server-node.git"
+  },
+  "type": "module",
+  "author": "jocampo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jocampo/simple-grpc-chat-server-node/issues"
+  },
+  "homepage": "https://github.com/jocampo/simple-grpc-chat-server-node#readme",
+  "dependencies": {
+    "@jocampo/simple-grpc-chat-proto": "1.0.6",
+    "grpc": "^1.24.3"
+  }
+}
